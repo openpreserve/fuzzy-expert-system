@@ -1,0 +1,21 @@
+FUNCTION_BLOCK fb
+
+VAR_POSITIVE_DECISION 1
+	Similarity_Measure := High
+	Is_A_Sequence := Sequence
+	Is_A_Cover := No_Cover
+	Creation_Date := Similar_Date
+	Name_Similarity := Similar_Name
+	Version_Priority := New_Version
+	File_Extension := Consistant
+	File_Size := Consistant
+END_DEPENDENCY_VAR
+
+EXPERIMENTBLOCK
+
+Similarity_Measure;Is_A_Sequence;Is_A_Cover;Creation_Date;Name_Similarity;Version_Priority;File_Extension;File_Size;
+83;8;0;2;0;1;1;10;
+
+END_EXPERIMENTBLOCK
+
+END_FUNCTION_BLOCK
